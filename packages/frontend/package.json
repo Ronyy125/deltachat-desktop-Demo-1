@@ -71,3 +71,4 @@
     "typescript-plugin-css-modules": "catalog:"
   }
 }
+"crypto": "^1.0.3"
