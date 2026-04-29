@@ -9,7 +9,6 @@ export function encryptMessage(message: string, password: string): string {
   return encryptedMessage
 }
 
-
 export function decryptMessage(encrypted: string, password: string): string {
   // Logic here
   return originalMessage
