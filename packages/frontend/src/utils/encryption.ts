@@ -1,0 +1,3 @@
+- Import crypto module at the top
+- Create 2 functions: encrypt() and decrypt()
+- Export them so other files can use them
