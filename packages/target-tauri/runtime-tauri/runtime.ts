@@ -141,7 +141,7 @@ class TauriRuntime implements Runtime {
     isContactRequest: boolean,
     subject: string,
     sender: string,
-    receiveTime: string,
+    sentTime: string,
     content: string
   ): void {
     invoke('open_html_window', {
@@ -150,7 +150,7 @@ class TauriRuntime implements Runtime {
       isContactRequest,
       subject,
       sender,
-      receiveTime,
+      sentTime,
       content,
     })
   }
@@ -187,8 +187,6 @@ class TauriRuntime implements Runtime {
     const frontendOnly = {
       showNotificationContent: true,
       enterKeySends: false,
-      enableAVCallsV2: false,
-      enableBroadcastLists: false,
       enableOnDemandLocationStreaming: false,
       chatViewBgImg: undefined,
       galleryImageKeepAspectRatio: false,
