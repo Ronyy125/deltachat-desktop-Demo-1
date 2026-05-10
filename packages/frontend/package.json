@@ -69,12 +69,5 @@
     "ts-node": "^10.9.2",
     "typescript": "catalog:",
     "typescript-plugin-css-modules": "catalog:"
- "devDependencies": {
-    ...existing devDependencies...
-  },
-  "dependencies": {
-    "crypto": "^1.0.3"
-    // ... other dependencies from lines 76-79
-  } 
   }
 }
